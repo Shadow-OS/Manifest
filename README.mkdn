@@ -18,3 +18,7 @@ repo sync -j8 --force-sync
 
 To Get Official MaintainerShip Use This Link To Fill Up The Form And Wait For Out Response :
 [MaintainerShip](https://docs.google.com/forms/d/e/1FAIpQLSeys3ZrOIWQrWIA58YjiqP1oH8Ue62bzdmpBZl6QpDhHQcIJQ/viewform?usp=sf_link)
+
+Special Thanks To :
+[LineageOS](https://github.com/LineageOS)
+[CipherOS](https://github.com/CipherOS)
