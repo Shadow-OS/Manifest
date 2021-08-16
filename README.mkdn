@@ -16,7 +16,6 @@ repo sync -j8 --force-sync
 ```
 
 Build
-
 # Set Up Environmet
 source build/envsetup.sh
 ```
