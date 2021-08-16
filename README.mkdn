@@ -1,4 +1,4 @@
-# Pixel Experience #
+# ShadowOS Be Ready Get Blown Away #
 
 ### Sync ###
 
@@ -16,13 +16,13 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```bash
 
 # Set up environment
-$ . build/envsetup.sh
+. build/envsetup.sh
 
 # Choose a target
-$ lunch aosp_$device-userdebug
+lunch shadow_(devicecodename)-userdebug
 
-# Build the code
-$ mka bacon -jX
+# Build
+make bacon 2>1 | tee log.txt
 ```
 To Get Official MaintainerShip Use This Link To Fill Up The Form And Wait For Out Response :
 [MaintainerShip](https://docs.google.com/forms/d/e/1FAIpQLSeys3ZrOIWQrWIA58YjiqP1oH8Ue62bzdmpBZl6QpDhHQcIJQ/viewform?usp=sf_link)
