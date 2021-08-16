@@ -19,7 +19,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 . build/envsetup.sh
 
 # Choose a target
-lunch shadow_(devicecodename)-userdebug
+lunch lineage_(devicecodename)-userdebug
 
 # Build
 make bacon 2>1 | tee log.txt
