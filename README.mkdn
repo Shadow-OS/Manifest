@@ -1,29 +1,28 @@
-ShadowOS Be Ready Get Blown Away
-===========
+# Pixel Experience #
 
-Getting started
----------------
+### Sync ###
 
-To get started with manifest/ShadowOS, you'll need to get
+```bash
 
-To initialize your local repository using the LineageOS trees, use a command like this:
-```
-repo init -u git://github.com/Shadow-OS/manifest.git -b shadowos-10 --depth=1
-```
-Then to sync up:
-```
-repo sync -j8 --force-sync
+# Initialize local repository
+repo init -u https://github.com/PixelExperience/manifest -b eleven
+
+# Sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
-Build
-# Set Up Environmet
-source build/envsetup.sh
-```
-# Choose A Target
-lunch shadow_(devicecodename)-userdebug
-```
-# Build
-make bacon 2>1 | tee log.txt
+### Build ###
+
+```bash
+
+# Set up environment
+$ . build/envsetup.sh
+
+# Choose a target
+$ lunch aosp_$device-userdebug
+
+# Build the code
+$ mka bacon -jX
 ```
 To Get Official MaintainerShip Use This Link To Fill Up The Form And Wait For Out Response :
 [MaintainerShip](https://docs.google.com/forms/d/e/1FAIpQLSeys3ZrOIWQrWIA58YjiqP1oH8Ue62bzdmpBZl6QpDhHQcIJQ/viewform?usp=sf_link)
