@@ -26,7 +26,7 @@
            sync-c="true"
            sync-j="4" />
 
-    <project path="vendor/shadow" name="android_vendor_shadow" remote="shadow" />
+    <project path="vendor/lineage" name="android_vendor_lineage" remote="shadow" />
 
   <!-- AOSP Projects -->
 
